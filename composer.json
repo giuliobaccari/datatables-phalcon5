@@ -1,0 +1,31 @@
+{
+    "name": "giuliobaccari/datatables-phalcon5",
+    "description": "DataTables adapter for Phalcon Framework Version 5.6",
+    "keywords": ["Phalcon", "DataTables", "Plugin"],
+    "license": "MIT",
+    "autoload": {
+      "psr-4": {
+        "DataTables\\": "src/"
+      }
+    },
+    "authors": [
+      {
+        "name": "Giulio Baccari ",
+        "email": "giulio.baccari@zerotohero.it"
+      }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+	"php": ">=8.0",
+        "ext-phalcon": "5.*"
+    },
+    "extra": {
+      "branch-alias": {
+        "dev_master": "1.2.1-dev"
+      }
+    },
+    "require-dev": {
+      "fzaninotto/faker": "1.5.*@dev",
+      "kahlan/kahlan": "^3.0"
+    }
+}
